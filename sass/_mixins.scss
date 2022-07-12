@@ -1,0 +1,8 @@
+@mixin fontSize($color, $size) {
+    color: $color;
+    font-size: $size;
+    
+}
+.text-focus-in2 {
+    @include fontSize( black, 2rem )
+}

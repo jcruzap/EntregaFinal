@@ -1,0 +1,200 @@
+@media only screen and (max-width: 991px){
+
+
+    .navbar{
+      width: auto;
+  }    
+  
+  .row{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+  }
+  .mapaSede2{
+    height: 600px;
+    width: 900px;
+  }
+  }
+  
+  @media only screen and (max-width: 768px) {
+  body {
+      background-color: black;
+  }
+  
+  .navbar{
+    width: auto;
+  }    
+  .logoSize {
+      height: auto;
+      width: 100%;
+  }
+  .scale-in-hor-center {
+      background-color: gray;
+  }
+  .welcome {
+      color: azure;
+  }
+      /* PLANES 768px RESPONSIVE */
+  .planes768 {
+      color: azure;
+  }
+      /* ACTIVIDADADES 768px RESPONSIVE */
+  .h1Activ {
+      color: azure;
+  }
+      /* SEDES 768px RESPONSIVE */
+  .mapaSedes {
+      color: azure;
+  }
+  .mapaSede2{
+      height: 500px;
+      width: auto;
+  }
+      /* QUIENESSOMOS 768px RESPONSIVE */
+  .Quienesh1p {
+        color: azure;
+  }
+      /* CONTACTO 768px RESPONSIVE */
+  .tracking-in-expand{
+        color: azure;
+  }
+  .formularioNuevo{
+        margin-left: 0;
+  }
+  .col-sm-4redesSociales{
+        width: 50%;
+  }
+  .col-sm-2redesSociales2{
+        width: 16.66666667%;
+  }
+  .col-sm-2redesSociales3{
+        width: 16.66666667%;
+  }
+  .col-sm-1{
+        width: 50%;
+  }
+  .textIndex{
+        width: auto;
+  }    
+  }
+    
+  @media only screen and (max-width: 480px) {
+      
+      /* INDEX.HTML RESPONSIVE */
+      
+  body {
+        background-color: gray;
+        text-align: center;
+  }
+  
+  header {
+        width: 100%;
+  }
+  
+  .navnav {
+        width: auto;
+  }
+  
+  .logoSize {
+        height: auto;
+        width: 100%;
+  }
+    
+  .text-focus-in2{
+      color:azure;
+  }
+  .nav {
+      height: 35px;
+      width: 100%;
+  }
+  
+  .fotoIndex1{
+    width: 100%;
+  }
+  .fotoIndex2{
+    width: 100%;
+  }
+  .fotoIndex3{
+    width: 100%;
+  }
+  .fotoIndex4{
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  
+      /* ACTIVIDADES.HTML RESPONSIVE */
+  
+  .mainActividades {
+        box-sizing: border-box;
+        padding: 0;
+        margin-top: 10px;
+  }
+  
+  .h1yp {
+        background-color: #ffae00;
+        margin-top: 125px;
+        width: 100%;
+        box-sizing: border-box;
+        font-size: 1rem;
+        align-items: center;
+  }
+  
+  .h1yp h1 {
+        display: none;
+  }
+  
+  .videitoActividades video {
+        box-sizing: border-box;
+        max-width: 30rem;
+        max-height: 20rem;
+        margin: 10px 1px 1px -20px;
+  }
+  
+      /* PLANES.HTML RESPONSIVE */
+  
+  .contenedorPlanes {
+      width: auto;
+      margin-top: 20px;
+  }
+      /* SEDES R E S P O N S I V E */
+   
+  .mapaSedes {
+      color: azure;
+      font-size: 1.7rem;
+  }
+  
+  .mapaSede2{
+      height: 220px;
+      width: 360px;
+  }
+  
+  
+  iframe {
+      box-sizing: border-box;
+      width: 50vh;
+      height: 50vh;
+  }
+      /* QUIENES SOMOS .HTML RESPONSIVE */
+  
+  .quienesP {
+        background-color: #ffa600;
+        font-size: 1rem;
+  }
+      /* CONTACTO.HTML RESPONSIVE */
+      
+  .contactmain {
+        height: 50vp;
+  }
+      /* FOOTER RESPONSIVE */
+  
+  .footer__text1{
+    font-size: 1rem;
+  }
+  .footer__text2{
+    font-size: 2rem;
+  }
+  .footer__text3{
+    font-size: 1rem;
+  }
+  }

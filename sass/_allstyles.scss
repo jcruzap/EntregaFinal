@@ -1,0 +1,160 @@
+/*Google Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+/*RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*Barra de navegación*/
+.text-focus-in2 {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    background-color: $tertiary-color;
+    font-family: $font-type;
+    box-shadow: 3px 6px 9px #000000;
+    color: black;
+    font-size: 2rem;
+    border-radius: 14px;
+    -webkit-animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+    animation: text-focus-in 1s cubic-bezier(0.56, 0.085, 0.68, 0.53) both;
+}
+
+
+@-webkit-keyframes text-focus-in {
+    0% {
+      -webkit-filter: blur(13px);
+      filter: blur(12px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-filter: blur(0px);
+      filter: blur(0px);
+      opacity: 1;
+    }
+}
+  
+@keyframes text-focus-in {
+    0% {
+      -webkit-filter: blur(12px);
+      filter: blur(12px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-filter: blur(0px);
+      filter: blur(0px);
+      opacity: 1;
+    }
+}
+  
+.carousel.inner {
+    height: 50vh;
+}
+  
+.tracking-in-contract-bck {
+    -webkit-animation: tracking-in-contract-bck 2s cubic-bezier(0.215, 0.61, 0.355, 1) both;
+    animation: tracking-in-contract-bck 2s cubic-bezier(0.215, 0.61, 0.355, 1) both;
+}
+  
+  @-webkit-keyframes tracking-in-contract-bck {
+    0% {
+      letter-spacing: 1em;
+      -webkit-transform: translateZ(400px);
+      transform: translateZ(400px);
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      -webkit-transform: translateZ(0);
+      transform: translateZ(0);
+      opacity: 1;
+    }
+}
+  
+@keyframes tracking-in-contract-bck {
+    0% {
+      letter-spacing: 1em;
+      -webkit-transform: translateZ(400px);
+      transform: translateZ(400px);
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      -webkit-transform: translateZ(0);
+      transform: translateZ(0);
+      opacity: 1;
+    }
+}
+
+  
+  /* CSS SEDES */
+
+.h1Sede1 {
+    margin: 1.75rem;
+}
+  
+.mapaSede2 {
+    width: 1000px;
+    height: 800px;
+    margin: 1.25rem;
+}
+  
+  /* NOSOTROS */
+
+.Quienes h1 {
+    margin: 1.75rem;
+    color: black;
+}
+  
+.quienesP {
+    margin: 1.75rem;
+    font-family: $font-type;
+}
+  
+  /* UBICACIÓN  */
+
+.formularioNuevo{
+  background-color:$secondary-color;
+  top: 50%;
+  margin-left: 25%;
+  box-shadow: 7px 13px 34px ;
+} 
+.tracking-in-expand {
+    -webkit-animation: tracking-in-expand 1.5s cubic-bezier(0.215, 0.61, 0.355, 1) both;
+    animation: tracking-in-expand 1.5s cubic-bezier(0.215, 0.61, 0.355, 1) both;
+}
+  
+@-webkit-keyframes tracking-in-expand {
+    0% {
+      letter-spacing: -0.5em;
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      opacity: 1;
+    }
+}
+  
+@keyframes tracking-in-expand {
+    0% {
+      letter-spacing: -0.5em;
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      opacity: 1;
+    }
+}
